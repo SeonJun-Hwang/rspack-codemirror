@@ -1,0 +1,16 @@
+{
+  "name": "@rspack-codemirror/client",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=development rspack serve",
+    "build": "NODE_ENV=development rspack build"
+  },
+  "dependencies": {
+    "@test/external": "workspace:^"
+  },
+  "devDependencies": {
+    "@rspack/cli": "0.7.3",
+    "@rspack/core": "0.7.3"
+  }
+}

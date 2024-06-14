@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": false,
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitOverride": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "target": "es2015",
+    "strict": true,
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    // 기존 tsconfig.lib.json에만 있던 내용
+    // lib에는 commonjs, base에는 esnext. 쓰는쪽에서는 전부 common이었음
+    "module": "ESNext",
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

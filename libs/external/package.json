@@ -1,0 +1,20 @@
+{
+  "name": "@rspack-codemirror/external",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "scripts": {
+    "start": "NODE_ENV=development rspack serve",
+    "build": "NODE_ENV=development rspack build",
+    "build:prod": "NODE_ENV=production rspack build"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.5.0",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/view": "^6.26.3"
+  },
+  "devDependencies": {
+    "@rspack/cli": "0.7.3",
+    "@rspack/core": "0.7.3"
+  }
+}

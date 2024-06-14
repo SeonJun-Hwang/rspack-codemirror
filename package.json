@@ -1,0 +1,13 @@
+{
+  "name": "rspack-codemirror",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pnpm -F @rspack-codemirror/client start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rspack/cli": "0.7.3",
+    "@rspack/core": "0.7.3"
+  }
+}
