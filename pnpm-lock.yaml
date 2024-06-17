@@ -7,16 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@codemirror/commands':
-        specifier: ^6.5.0
-        version: 6.6.0
-      '@codemirror/state':
-        specifier: ^6.4.1
-        version: 6.4.1
-      '@codemirror/view':
-        specifier: ^6.26.3
-        version: 6.28.1
     devDependencies:
       '@rspack/cli':
         specifier: 0.7.3
@@ -27,7 +17,7 @@ importers:
 
   apps/client:
     dependencies:
-      '@test/external':
+      '@rspack-codemirror/external':
         specifier: workspace:^
         version: link:../../libs/external
     devDependencies:

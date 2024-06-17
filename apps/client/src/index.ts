@@ -1,4 +1,4 @@
-import { init } from '@test/external';
+import { init } from '@rspack-codemirror/external';
 
 document.addEventListener('DOMContentLoaded', () => {
   const $textArea = document.querySelector('textarea')!;

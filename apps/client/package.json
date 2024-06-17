@@ -7,7 +7,7 @@
     "build": "NODE_ENV=development rspack build"
   },
   "dependencies": {
-    "@test/external": "workspace:^"
+    "@rspack-codemirror/external": "workspace:^"
   },
   "devDependencies": {
     "@rspack/cli": "0.7.3",
